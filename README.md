@@ -1,8 +1,8 @@
-\# Student Registration System
+Student Registration System
 
 
 
-A \*\*Full Stack Student Registration System\*\* built using \*\*Angular (Frontend)\*\* and \*\*ASP.NET Core Web API (Backend)\*\*.
+A Full Stack Student Registration System built using Angular (Frontend) and ASP.NET Core Web API (Backend).
 
 This project allows administrators to manage student records including adding, updating, viewing, and deleting students.
 
@@ -11,56 +11,41 @@ This project allows administrators to manage student records including adding, u
 ---
 
 
+ Tech Stack
 
-\## Tech Stack
+Frontend
 
+1. Angular
 
+2. TypeScript
 
-\### Frontend
+3. HTML
 
+4. CSS
 
-
-\* Angular
-
-\* TypeScript
-
-\* HTML
-
-\* CSS
-
-\* Bootstrap
+5. Bootstrap
 
 
+Backend
 
-\### Backend
+1. ASP.NET Core Web API
 
+2. Entity Framework Core
 
-
-\* ASP.NET Core Web API
-
-\* Entity Framework Core
-
-\* C#
+3. C#
 
 
 
-\### Database
+Database
+
+1. SQL Server
 
 
 
-\* SQL Server
+------------------------------
 
+ Project Structure
 
-
----
-
-
-
-\## Project Structure
-
-
-
-```
 
 student-registration-system
 
@@ -98,40 +83,27 @@ student-registration-system
 
 └── .gitignore
 
-```
+------------------------------
 
+Features
 
+1. Admin Login
 
----
+2. Add Student
 
+3. Update Student
 
+4. Delete Student
 
-\## Features
+5. View All Students
 
+6. RESTful API architecture
 
+7. Clean layered architecture (Controller → Service → Data)
 
-\* Admin Login
+------------------------------
 
-\* Add Student
-
-\* Update Student
-
-\* Delete Student
-
-\* View All Students
-
-\* RESTful API architecture
-
-\* Clean layered architecture (Controller → Service → Data)
-
-
-
----
-
-
-
-\## API Endpoints
-
+ API Endpoints
 
 
 | Method | Endpoint            | Description       |
@@ -150,163 +122,11 @@ student-registration-system
 
 
 
----
+------------------------------
 
 
 
-\## How to Run the Project
 
-
-
-\### Backend (ASP.NET Core)
-
-
-
-1\. Navigate to API folder
-
-
-
-```
-
-cd Api/Student\_Registration
-
-```
-
-
-
-2\. Restore packages
-
-
-
-```
-
-dotnet restore
-
-```
-
-
-
-3\. Run the API
-
-
-
-```
-
-dotnet run
-
-```
-
-
-
-API will run at:
-
-
-
-```
-
-https://localhost:5001
-
-```
-
-
-
----
-
-
-
-\### Frontend (Angular)
-
-
-
-1\. Navigate to UI folder
-
-
-
-```
-
-cd Ui/Student\_Registration
-
-```
-
-
-
-2\. Install dependencies
-
-
-
-```
-
-npm install
-
-```
-
-
-
-3\. Run Angular app
-
-
-
-```
-
-ng serve
-
-```
-
-
-
-Open browser:
-
-
-
-```
-
-http://localhost:4200
-
-```
-
-
-
----
-
-
-
-\## Future Improvements
-
-
-
-\* JWT Authentication
-
-\* Role-based access (Admin/User)
-
-\* Pagination for student list
-
-\* Search and filter functionality
-
-\* Deployment to cloud
-
-
-
----
-
-
-
-\## Author
-
-
-
-\*\*Kartikeya Singh\*\*
-
-
-
-B.Tech Computer Science Engineering
-
-Interested in \*\*Cybersecurity, Cloud, and Full Stack Development\*\*
-
-
-
-GitHub:
-
-https://github.com/kartiks11-exe
 
 
 
